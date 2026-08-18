@@ -26,9 +26,9 @@ public class PedidoExpress extends Pedido{
 
     public void asignarRepartidor(String nombreRepartidor) {
         System.out.println("Buscando repartidor cercano a la zona...");
-        System.out.println("Se ha encontrado un repartidor!");
         System.out.println("Repartidor encontrado: "+nombreRepartidor);
         System.out.println("Verificando disponibilidad inmediata...");
-        System.out.println("EL repartidor está disponible! El pedido ha sido asignado a: "+nombreRepartidor);
+        System.out.println("EL repartidor está disponible!");
+        System.out.println("El pedido ha sido asignado a : "+nombreRepartidor);
     }
 }
