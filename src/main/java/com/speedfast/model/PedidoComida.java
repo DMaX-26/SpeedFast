@@ -32,6 +32,7 @@ public class PedidoComida extends Pedido{
      * @param nombreRepartidor
      */
     public void asignarRepartidor(String nombreRepartidor){
+        System.out.println("Repartidor disponible: "+nombreRepartidor);
         System.out.println("Verificando si el repartidor tiene mochila térmica...");
         System.out.println("El repartidor sí tiene mochila térmica!");
         System.out.println("El pedido ha sido asignado a: "+nombreRepartidor);
