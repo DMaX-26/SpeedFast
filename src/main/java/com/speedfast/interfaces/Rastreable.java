@@ -1,4 +1,4 @@
-package com.speedfast.app;
+package com.speedfast.interfaces;
 
 import java.util.List;
 
