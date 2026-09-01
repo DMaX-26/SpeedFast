@@ -1,4 +1,5 @@
 package com.speedfast.interfaces;
 
-public class Cancelable {
+public interface Cancelable {
+    void cancelar();
 }
