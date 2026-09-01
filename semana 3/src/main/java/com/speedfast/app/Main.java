@@ -81,22 +81,5 @@ public class Main {
         for (PedidoExpress pex : historialPedidosExpress){
             pex.mostrarHistorial();
         }
-
-       /** Pedido[] pedidos = {
-                new PedidoComida(1, "Pedido comida", "Los álamos 123, Viña del Mar", 2.4),
-                new PedidoComida(2, "Pedido comida", "Calle Santiago 789, Con-con", 1.5),
-                new PedidoEncomienda(21, "Pedido encomienda", "Pasaje el roble 321, Quilpué", 4.5),
-                new PedidoEncomienda(22, "Pedido Encomienda", "La Retuca 456, Peñablanca", 4),
-                new PedidoExpress(12, "Pedido Express", "Calle Venecia 012, Valparaiso", 6),
-                new PedidoExpress(13, "Pedido Express", "Calle Santa Maria 034, Valparaiso", 2)
-        };
-
-        for (Pedido p : pedidos){
-            p.mostrarResumen();
-            p.asignarRepartidor();
-            p.calcularTiempoEntrega();
-            p.despachar();
-            p.mostrarHistorial();
-        }*/
     }
 }
